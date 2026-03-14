@@ -1,0 +1,11 @@
+Compiled from "SparkMax.java"
+public class com.revrobotics.spark.SparkMax extends com.revrobotics.spark.SparkBase {
+  public final com.revrobotics.spark.config.SparkMaxConfigAccessor configAccessor;
+  public com.revrobotics.spark.SparkMax(int, com.revrobotics.spark.SparkLowLevel$MotorType);
+  public com.revrobotics.REVLibError configure(com.revrobotics.spark.config.SparkBaseConfig, com.revrobotics.spark.SparkBase$ResetMode, com.revrobotics.spark.SparkBase$PersistMode);
+  public com.revrobotics.REVLibError configure(com.revrobotics.spark.config.SparkBaseConfig, com.revrobotics.ResetMode, com.revrobotics.PersistMode);
+  public com.revrobotics.RelativeEncoder getAlternateEncoder();
+  public com.revrobotics.spark.SparkAbsoluteEncoder getAbsoluteEncoder();
+  public com.revrobotics.spark.SparkLimitSwitch getForwardLimitSwitch();
+  public com.revrobotics.spark.SparkLimitSwitch getReverseLimitSwitch();
+}

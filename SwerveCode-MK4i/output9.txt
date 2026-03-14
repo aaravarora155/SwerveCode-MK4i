@@ -1,0 +1,71 @@
+
+> Task :compileJava FAILED
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:20: warning: [removal] ResetMode in SparkBase has been deprecated and marked for removal
+        driveMotor.configure(driveConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                  ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:20: warning: [removal] PersistMode in SparkBase has been deprecated and marked for removal
+        driveMotor.configure(driveConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                                                           ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:20: warning: [removal] configure(SparkBaseConfig,ResetMode,PersistMode) in SparkMax has been deprecated and marked for removal
+        driveMotor.configure(driveConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                  ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:23: warning: [removal] ResetMode in SparkBase has been deprecated and marked for removal
+        steerMotor.configure(steerConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                  ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:23: warning: [removal] PersistMode in SparkBase has been deprecated and marked for removal
+        steerMotor.configure(steerConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                                                           ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:23: warning: [removal] configure(SparkBaseConfig,ResetMode,PersistMode) in SparkMax has been deprecated and marked for removal
+        steerMotor.configure(steerConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                  ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\PhoenixOdometryThread.java:6: error: PhoenixOdometryThread is not abstract and does not override abstract method run() in Runnable
+public class PhoenixOdometryThread implements Runnable {
+       ^
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\SparkOdometryThread.java:6: error: SparkOdometryThread is not abstract and does not override abstract method run() in Runnable
+public class SparkOdometryThread implements Runnable {
+       ^
+2 errors
+6 warnings
+Compilation Error!
+GradleRIO detected this build failed due to a Compile Error (compileJava).
+Check that all your files are saved, then scroll up in this log for more information.
+[Incubating] Problems report is available at: file:///C:/SwerveCode-MK4i/SwerveCode-MK4i/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\PhoenixOdometryThread.java:6: error: PhoenixOdometryThread is not abstract and does not override abstract method run() in Runnable
+  public class PhoenixOdometryThread implements Runnable {
+         ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\SparkOdometryThread.java:6: error: SparkOdometryThread is not abstract and does not override abstract method run() in Runnable
+  public class SparkOdometryThread implements Runnable {
+         ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:20: warning: [removal] ResetMode in SparkBase has been deprecated and marked for removal
+          driveMotor.configure(driveConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                    ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:20: warning: [removal] PersistMode in SparkBase has been deprecated and marked for removal
+          driveMotor.configure(driveConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                                                             ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:20: warning: [removal] configure(SparkBaseConfig,ResetMode,PersistMode) in SparkMax has been deprecated and marked for removal
+          driveMotor.configure(driveConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                    ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:23: warning: [removal] ResetMode in SparkBase has been deprecated and marked for removal
+          steerMotor.configure(steerConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                    ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:23: warning: [removal] PersistMode in SparkBase has been deprecated and marked for removal
+          steerMotor.configure(steerConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                                                                                             ^
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\subsystems\swerve\ModuleIONeo.java:23: warning: [removal] configure(SparkBaseConfig,ResetMode,PersistMode) in SparkMax has been deprecated and marked for removal
+          steerMotor.configure(steerConfig, SparkMax.ResetMode.kResetSafeParameters, SparkMax.PersistMode.kPersistParameters);
+                    ^
+  2 errors
+  6 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed

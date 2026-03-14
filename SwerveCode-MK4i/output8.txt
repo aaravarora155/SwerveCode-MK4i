@@ -1,0 +1,81 @@
+
+> Task :compileJava FAILED
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\Autos.java:7: error: cannot find symbol
+import frc.robot.subsystems.ExampleSubsystem;
+                           ^
+  symbol:   class ExampleSubsystem
+  location: package frc.robot.subsystems
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\Autos.java:13: error: cannot find symbol
+  public static Command exampleAuto(ExampleSubsystem subsystem) {
+                                    ^
+  symbol:   class ExampleSubsystem
+  location: class Autos
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\ExampleCommand.java:7: error: cannot find symbol
+import frc.robot.subsystems.ExampleSubsystem;
+                           ^
+  symbol:   class ExampleSubsystem
+  location: package frc.robot.subsystems
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\ExampleCommand.java:13: error: cannot find symbol
+  private final ExampleSubsystem m_subsystem;
+                ^
+  symbol:   class ExampleSubsystem
+  location: class ExampleCommand
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\ExampleCommand.java:20: error: cannot find symbol
+  public ExampleCommand(ExampleSubsystem subsystem) {
+                        ^
+  symbol:   class ExampleSubsystem
+  location: class ExampleCommand
+C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\Robot.java:19: error: cannot find symbol
+  private final RobotContainer m_robotContainer;
+                ^
+  symbol:   class RobotContainer
+  location: class Robot
+6 errors
+Compilation Error!
+GradleRIO detected this build failed due to a Compile Error (compileJava).
+Check that all your files are saved, then scroll up in this log for more information.
+[Incubating] Problems report is available at: file:///C:/SwerveCode-MK4i/SwerveCode-MK4i/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\Autos.java:7: error: cannot find symbol
+  import frc.robot.subsystems.ExampleSubsystem;
+                             ^
+    symbol:   class ExampleSubsystem
+    location: package frc.robot.subsystems
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\Autos.java:13: error: cannot find symbol
+    public static Command exampleAuto(ExampleSubsystem subsystem) {
+                                      ^
+    symbol:   class ExampleSubsystem
+    location: class Autos
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\ExampleCommand.java:7: error: cannot find symbol
+  import frc.robot.subsystems.ExampleSubsystem;
+                             ^
+    symbol:   class ExampleSubsystem
+    location: package frc.robot.subsystems
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\ExampleCommand.java:13: error: cannot find symbol
+    private final ExampleSubsystem m_subsystem;
+                  ^
+    symbol:   class ExampleSubsystem
+    location: class ExampleCommand
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\commands\ExampleCommand.java:20: error: cannot find symbol
+    public ExampleCommand(ExampleSubsystem subsystem) {
+                          ^
+    symbol:   class ExampleSubsystem
+    location: class ExampleCommand
+  C:\SwerveCode-MK4i\SwerveCode-MK4i\src\main\java\frc\robot\Robot.java:19: error: cannot find symbol
+    private final RobotContainer m_robotContainer;
+                  ^
+    symbol:   class RobotContainer
+    location: class Robot
+  6 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed
